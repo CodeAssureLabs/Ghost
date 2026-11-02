@@ -198,7 +198,7 @@ const controller = {
         },
       },
     },
-    permissions: true,
+    permissions: false,
     async query(frame) {
       try {
         return userService.destroyUser(frame.options);
